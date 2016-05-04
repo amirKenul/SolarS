@@ -1,0 +1,89 @@
+
+body{
+	background:black;
+	width:100%;
+	height:500px;
+	margin:0;
+	padding:0;
+
+}
+
+
+/*Sun*/
+
+.sun{
+	
+    margin-left:650px;
+	margin-top:300px;
+    background:radial-gradient(red, orange);
+    width:70px;
+    height:70px;
+    border-radius:100%;
+    border: 40px solid none; 
+    box-shadow: 0 0px 50px orange;
+    
+   }
+  
+/*Earth*/
+
+.earth{
+   border: 0px solid yellow;
+   width:60px;
+   height:60px;
+   background:linear-gradient( deepskyblue, lightblue);
+   border-radius:100%;
+   border: 20px solid none; 
+   position:absolute;
+   left:650px;
+   top:300px;
+   animation: orbit 5s linear infinite; 
+   
+}
+
+
+/*Moon*/
+
+.moon{
+   
+   width:20px;
+   height:20px;
+   background:gray;
+   border-radius:100%;
+   position:absolute;
+   left:-30px;
+
+}
+
+
+/* Animation for Earth */
+@keyframes orbit{
+		
+from {  transform: rotate(0deg) translateX(200px); }
+
+to   {  transform: rotate(360deg) translateX(200px); }
+
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
